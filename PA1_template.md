@@ -154,6 +154,9 @@ sum(
 
 2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 
+*I will replace each NA value by the mean of the corresponding 5-minute interval.*
+
+
 ```r
 # Create a set to play with
 activity_corrected <- activity
@@ -257,4 +260,3 @@ q3
 
 ![](./PA1_template_files/figure-html/unnamed-chunk-14-1.png) 
 
-End of file!
